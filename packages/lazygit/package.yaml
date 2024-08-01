@@ -4,8 +4,7 @@ homepage: https://github.com/jesseduffield/lazygit
 licenses:
   - MIT
 languages: []
-categories:
-  - git
+categories: []
 source:
   id: pkg:github/jesseduffield/lazygit@v0.43.1
   asset:
