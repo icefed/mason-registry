@@ -4,8 +4,8 @@ homepage: https://github.com/jesseduffield/lazygit
 licenses:
   - MIT
 languages: []
-categories: []
-
+categories:
+  - git
 source:
   id: pkg:github.com/jesseduffield/lazygit@v0.43.1
   asset:
@@ -33,6 +33,5 @@ source:
     - target: win_arm64
       file: lazygit_{{ version | strip_prefix "v" }}_Windows_arm64.zip
       file: lazygit.exe
-
 bin:
   lazygit: "{{source.asset.bin}}"
