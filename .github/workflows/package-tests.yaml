@@ -2,7 +2,9 @@
 name: Package tests
 
 on:
-  pull_request:
+  push:
+    branches:
+      - main
   workflow_dispatch:
     inputs:
       packages:
