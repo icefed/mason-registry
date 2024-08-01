@@ -28,9 +28,9 @@ source:
       bin: lazygit.exe
     - target: win_x64
       file: lazygit_{{ version | strip_prefix "v" }}_Windows_x86_64.zip
-      file: lazygit.exe
+      bin: lazygit.exe
     - target: win_arm64
       file: lazygit_{{ version | strip_prefix "v" }}_Windows_arm64.zip
-      file: lazygit.exe
+      bin: lazygit.exe
 bin:
   lazygit: "{{source.asset.bin}}"
