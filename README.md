@@ -25,8 +25,10 @@ Add packages:
 
 setup registries in your `mason.nvim` config.
 ```
-registries = {
-  "github:mason-org/mason-registry",
-  "github:icefed/mason-registry",
-},
+require('mason').setup({
+  registries = {
+    "github:mason-org/mason-registry",
+    "github:icefed/mason-registry",
+  },
+})
 ```
