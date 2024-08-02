@@ -2,8 +2,10 @@
 name: Package tests
 
 on:
+  pull_request:
   push:
     branches:
+      - new
   workflow_dispatch:
     inputs:
       packages:
