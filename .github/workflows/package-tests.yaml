@@ -20,13 +20,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 1
-      - uses: mason-org/actions/registry-lint@v1
+      - uses: icefed/mason-actions/registry-lint@v1
         with:
           packages: ${{ github.event.inputs.packages }}
 
   test:
     name: Package tests
     needs: lint
-    uses: mason-org/actions/.github/workflows/package-tests.yaml@v1
+    uses: icefed/mason-actions/.github/workflows/package-tests.yaml@v1
     with:
       packages: ${{ github.event.inputs.packages }}
