@@ -10,28 +10,34 @@ source:
   asset:
     - target: darwin_x64
       file: yazi-x86_64-apple-darwin.zip
-      bin_yazi: yazi
-      bin_ya: ya
+      bin:
+        yazi: yazi-x86_64-apple-darwin/yazi
+        ya: yazi-x86_64-apple-darwin/ya
     - target: darwin_arm64
       file: yazi-aarch64-apple-darwin.zip
-      bin_yazi: yazi
-      bin_ya: ya
+      bin:
+        yazi: yazi-aarch64-apple-darwin/yazi
+        ya: yazi-aarch64-apple-darwin/ya
     - target: linux_x64
       file: yazi-x86_64-unknown-linux-gnu.zip
-      bin_yazi: yazi
-      bin_ya: ya
+      bin:
+        yazi: yazi-x86_64-unknown-linux-gnu/yazi
+        ya: yazi-x86_64-unknown-linux-gnu/ya
     - target: linux_arm64
       file: yazi-aarch64-unknown-linux-gnu.zip
-      bin_yazi: yazi
-      bin_ya: ya
+      bin:
+        yazi: yazi-aarch64-unknown-linux-gnu/yazi
+        ya: yazi-aarch64-unknown-linux-gnu/ya
     - target: win_x64
       file: yazi-x86_64-pc-windows-msvc.zip
-      bin_yazi: yazi.exe
-      bin_ya: ya.exe
+      bin:
+        yazi: yazi-x86_64-pc-windows-msvc/yazi.exe
+        ya: yazi-x86_64-pc-windows-msvc/ya.exe
     - target: win_arm64
       file: yazi-aarch64-pc-windows-msvc.zip
-      bin_yazi: yazi.exe
-      bin_ya: ya.exe
+      bin:
+        yazi: yazi-aarch64-pc-windows-msvc/yazi.exe
+        ya: yazi-aarch64-pc-windows-msvc/ya.exe
 bin:
-  yazi: "{{source.asset.bin_yazi}}"
-  ya: "{{source.asset.bin_ya}"
+  yazi: "{{source.asset.bin.yazi}}"
+  ya: "{{source.asset.bin.ya}}"

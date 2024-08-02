@@ -4,7 +4,6 @@ name: Package tests
 on:
   push:
     branches:
-      - main
   workflow_dispatch:
     inputs:
       packages:
