@@ -18,8 +18,11 @@ Compiled registry contents are available via [releases](https://github.com/icefe
 
 This repository contains the compiled registry contents for the [mason.nvim](https://github.com/williamboman/mason.nvim) package manager.
 
+The purpose is to list some tools you want to use in Neovim that do not fall under the categories of Compiler, DAP, Formatter, LSP, Linter, or Runtime, and are also not contained in the [core registry](https://github.com/mason-org/mason-registry).
+
 Add packages:
-- lazygit
+- [lazygit](https://github.com/jesseduffield/lazygit) - A simple terminal UI for git commands.
+- [yazi](https://github.com/sxyazi/yazi) - Blazing fast terminal file manager, based on async I/O.
 
 ### Usage
 
