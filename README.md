@@ -6,17 +6,11 @@
 
 ![mason-registry](https://user-images.githubusercontent.com/6705160/230374582-25c9c26a-7885-4e1e-960d-3ec6880fbcb4.png)
 
-<p align="center">
-    Core package registry for <a href="https://github.com/williamboman/mason.nvim"><code>mason.nvim</code></a>.
-</p>
-
 Refer to [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
-
-Compiled registry contents are available via [releases](https://github.com/icefed/mason-registry/releases).
 
 ### Introduction
 
-This repository contains the compiled registry contents for the [mason.nvim](https://github.com/williamboman/mason.nvim) package manager.
+This repository is a third party registry for the [mason.nvim](https://github.com/williamboman/mason.nvim) package manager.
 
 The purpose is to list some tools you want to use in Neovim that do not fall under the categories of Compiler, DAP, Formatter, LSP, Linter, or Runtime, and are also not contained in the [core registry](https://github.com/mason-org/mason-registry).
 
@@ -26,7 +20,7 @@ Add packages:
 
 ### Usage
 
-setup registries in your `mason.nvim` config.
+Setup registries in your `mason.nvim` config.
 ```
 require('mason').setup({
   registries = {
