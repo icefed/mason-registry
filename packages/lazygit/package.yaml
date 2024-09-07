@@ -6,7 +6,7 @@ licenses:
 languages: []
 categories: []
 source:
-  id: pkg:github/jesseduffield/lazygit@v0.43.1
+  id: pkg:github/jesseduffield/lazygit@v0.44.0
   asset:
     - target: darwin_x64
       file: lazygit_{{ version | strip_prefix "v" }}_Darwin_x86_64.tar.gz
