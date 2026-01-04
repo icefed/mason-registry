@@ -7,7 +7,7 @@ licenses:
 languages: []
 categories: []
 source:
-  id: pkg:github/sxyazi/yazi@v25.5.31
+  id: pkg:github/sxyazi/yazi@v26.1.4
   asset:
     - target: darwin_x64
       file: yazi-x86_64-apple-darwin.zip
